@@ -1,0 +1,239 @@
+.home {
+  height: auto;
+}
+.hero-container {
+  background-color: #f5fdff !important;
+  padding: 3rem 4.5rem;
+}
+.hero-buttons {
+  display: flex;
+  z-index: -1000 !important;
+}
+.hero-get-in-touch-button {
+  margin-right: 1rem !important;
+  background: #173641 !important;
+}
+.hero-check-my-work-button {
+  background: #fff !important;
+  color: #173641 !important ;
+  border-color: #173641 !important;
+}
+Button {
+  padding: 0.65rem 1rem !important;
+  text-transform: inherit !important;
+}
+.hero-image {
+  width: 90%;
+  height: auto;
+}
+.hero-image-container {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.hero-para {
+  width: 85%;
+}
+.hero-intro {
+  margin-top: 3rem;
+}
+h1 {
+  font-size: 3rem;
+  color: #173641 !important;
+  margin: auto;
+}
+p {
+  color: #173641 !important;
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+.technologies-head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.technologies-subhead {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.tech-image {
+  width: 7rem;
+  height: 7rem;
+  margin: 0.5rem;
+}
+.technologies-images-1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 2rem;
+}
+.technologies-container {
+  padding: 5rem 0rem;
+}
+.services-container {
+  padding: 4rem 4.5rem;
+  background: #f5fdff;
+}
+.services-head {
+  text-align: center;
+  padding: 0rem;
+}
+.service-image {
+  width: 25rem;
+  height: 20rem;
+  border-radius: 1rem;
+}
+.services-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 0rem 4rem;
+}
+.service-image-box {
+  text-align: center;
+}
+h2 {
+  color: #173641;
+}
+.projects-container {
+  padding: 4.5rem;
+}
+.projects-head {
+  text-align: center;
+}
+.project1-box {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 2rem 0rem;
+}
+.project-image1-box {
+  width: 45%;
+  text-align: center;
+}
+.project-image1 {
+  width: 100%;
+  height: auto;
+}
+.project1-text {
+  width: 100%;
+}
+.project-description {
+  width: 40%;
+}
+.view-more-btn {
+  color: #173641 !important;
+}
+.contact-container {
+  background: #f5fdff;
+  text-align: center;
+  padding: 7rem;
+  margin: auto;
+}
+.email-box {
+  width: 40%;
+  height: 3rem;
+  margin: auto;
+  border-color: #173641;
+  display: flex;
+  border: 1px solid #173641;
+  border-radius: 1rem;
+  margin: 2rem auto;
+  padding: 0.25rem;
+}
+.input-box {
+  width: 80%;
+  height: 100%;
+  border-radius: 1rem;
+  padding: 0rem 1rem;
+  font-size: 1rem;
+  background: transparent;
+  border: none;
+  outline: none;
+}
+.input-box:focus{
+  border: none;
+  outline: none;
+}
+.send-btn {
+  background: #173641;
+  border: none;
+  border-radius: 50%;
+  color: #fff;
+  padding: 0.65rem 0.85rem !important;
+  margin: auto;
+}
+@media only screen and (max-width: 900px) {
+  .hero-container {
+    padding: 2rem;
+  }
+  .hero-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0rem !important;
+  }
+  .hero-intro {
+    margin-top: 1rem;
+  }
+  .technologies-head {
+    padding: 1rem;
+  }
+  .tech-head {
+    font-size: 2rem !important;
+  }
+  .tech-subhead {
+    margin: 0rem;
+    font-size: 1rem;
+  }
+  .hero-image {
+    width: 95% !important;
+  }
+  .services-box {
+    padding: 3rem 0rem;
+  }
+  .service-image {
+    width: 20rem;
+    height: 20rem;
+    border-radius: 1rem;
+  }
+  .services-container {
+    padding: 1rem;
+  }
+  .project-image1 {
+    width: 100%;
+    height: auto;
+  }
+  .project-description {
+    width: 100%;
+  }
+  .projects-container {
+    padding: 2rem;
+  }
+  .project-image1-box {
+    width: 100%;
+    text-align: center;
+  }
+  .project-2 {
+    flex-direction: column-reverse !important;
+  }
+  .contact-container {
+    padding: 7rem 1rem;
+  } 
+  .email-box {
+    width: 80%;
+    height: 3rem;
+    margin: auto;
+    padding: 1rem;
+    border-color: #173641;
+  }
+  .email-box{
+    padding: 0.25rem;
+    margin: 2rem auto;
+  }
+}

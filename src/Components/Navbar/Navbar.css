@@ -1,0 +1,50 @@
+.navbar {
+  background-color: #f5fdff !important;
+  box-shadow: none !important;
+  position: sticky !important;
+  top: 0;
+  background: transparent;
+  padding: 0.5rem 3rem;
+  z-index: 1;
+}
+.logo {
+  width: 9rem;
+  height: auto;
+}
+.navbar.active {
+  background: #fff !important;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px !important;
+}
+.navbar-box {
+  display: flex;
+  justify-content: space-between;
+}
+.contact-icon {
+  color: black !important;
+  width: 1rem !important;
+}
+.MuiButtonBase-root {
+  background-color: #a0e1da !important;
+}
+
+.connect-btn {
+  background-color: #a0e1da !important;
+  color: black !important;
+  text-transform: inherit !important;
+  font-weight: 600 !important;
+  padding: 0.65rem 1rem !important;
+  box-shadow: none !important;
+}
+@media only screen and (max-width: 900px) {
+  .connect-btn {
+    display: none !important;
+  }
+  .navbar {
+    padding: 1rem 1rem;
+  }
+  .navbar-resp {
+    display: flex;
+    flex-grow: 0 !important;
+  }
+}
