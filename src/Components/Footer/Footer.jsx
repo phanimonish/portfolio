@@ -7,7 +7,7 @@ export default function Footer() {
     <div className="footer-container">
       <div className="footer-box">
         <div className="footer-side-1">
-          <h1 className="footer-head">KPM</h1>
+          <h1 className="footer-head">KPM-DevWorks</h1>
           <p className="footer-subhead">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
